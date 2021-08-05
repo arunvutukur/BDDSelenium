@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestRunners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.602 sec <<< FAILURE!
+Login to youtube(Login to Youtube search)  Time elapsed: 10.447 sec  <<< ERROR!
+java.lang.NullPointerException
+	at Page.YoutubePage.enterWebsite(YoutubePage.java:15)
+	at stepdefinitions.youtubesearchsteps.OpenHomepage(youtubesearchsteps.java:31)
+	at ?.I open homepage(file:///C:/Users/6F83-VUTKR/IdeaProjects/BDDJava/Features/youtube.feature:5)
+
